@@ -70,7 +70,7 @@ export class Canvas extends React.Component {
             downRect = { ...rect }
 
            
-            if(this.state.action == OPRATION.CONTENT_RECT){
+            if(this.state.opration == OPRATION.CONTENT_RECT){
                 this.handle = checkHandle(e)
             }
             
